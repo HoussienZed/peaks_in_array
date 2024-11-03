@@ -11,5 +11,9 @@ def find_peaks(array):
     return print(f"The indices of peaks in the array are {peaks_indices}")
 
 
-numbers = list(input("numbers"))
-find_peaks(numbers)
+tested_array = []
+numbers_count = int(input("Enter how many numbers do you want to test: "))
+
+for i in range(numbers_count):
+    number = int(input(f"Enter number {i}: "))
+    numbers_count.append(number)
