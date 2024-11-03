@@ -14,7 +14,7 @@ def find_peaks(array):
 tested_array = []
 numbers_count = int(input("Enter how many numbers do you want to test: "))
 
-for i in range(numbers_count):
+for i in range(1, numbers_count + 1):
     number = int(input(f"Enter number {i}: "))
     tested_array.append(number)
 
